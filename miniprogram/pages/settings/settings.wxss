@@ -1,0 +1,21 @@
+/* pages/settings/settings.wxss */
+
+.setting {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_gap {
+    display: flex;
+    // flex-direction: row;
+    align-items: left;
+    /*justify-content控制左右*/
+}
+
+.test {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

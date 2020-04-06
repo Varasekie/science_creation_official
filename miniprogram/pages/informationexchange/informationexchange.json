@@ -1,0 +1,8 @@
+{
+
+    "usingComponents": {
+        "mp-tabbar": "../../components/custom-tab-bar"
+    },
+    "navigationBarTitleText": "消息"
+
+}

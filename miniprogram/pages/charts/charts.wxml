@@ -1,0 +1,18 @@
+<!--pages/charts/charts.wxml-->
+
+<view class="container">
+    
+
+    <view>
+        
+        <block>
+
+            <view  style="flex-direction:row;">
+            test
+            </view>
+
+        </block>
+    </view>
+
+     <mp-tabbar style="position:top;bottom:0;width:100%;left:0;right:0;" list="{{list}}" bindchange="tabChange"></mp-tabbar>
+</view>

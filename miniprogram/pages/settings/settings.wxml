@@ -1,0 +1,77 @@
+<!--pages/settings/settings.wxml-->
+<view class='tips'>
+    页面设置
+</view>
+
+<view class="page__bd">
+    <view class="section_gap">
+        <view class="section__title">夜间模式</view>
+        <!--函数没写-->
+        <view class="body-view">
+            <switch checked="{{switch1Checked}}" bindchange="switch1Change" />
+        </view>
+    </view>
+
+    <view class="section_gap">
+        <view>
+            主题颜色
+        </view>
+        <view>
+    <radio-group bindchange="radioChange">
+        <view>
+            <label class="ui-radio {{item.checked==true?'active':''}}" wx:for="{{items}}">
+                <radio value="{{item.name}}" checked="{{item.checked}}"/>
+                <text class="itemvalue" >{{item.value}}</text>
+                </label>
+        </view>
+        <!--函数没写-->
+    </radio-group>
+</view>
+            
+        
+
+    </view>
+
+
+    <view class='tips'>
+        消息提醒
+    </view>
+    <view class="page__bd">
+        <view class="section_gap">
+            <view class="section__title">随送消息提醒</view>
+            <view class="body-view">
+                <!--函数没写-->
+                <switch checked="{{switch1Checked}}" bindchange="switch1Change" />
+            </view>
+        </view>
+
+        <view class="section_gap">
+            <view class="section__title">震动</view>
+            <view class="body-view">
+                <!--函数没写-->
+                <switch checked="{{switch1Checked}}" bindchange="switch1Change" />
+            </view>
+        </view>
+    </view>
+
+    <view class='tips'>
+        个人隐私
+    </view>
+    <view class="page__bd">
+        <view class="section_gap">
+            <view class="section__title">向别人展示签名</view>
+            <view class="body-view">
+                <!--函数没写-->
+                <switch checked="{{switch1Checked}}" bindchange="switch1Change" />
+            </view>
+        </view>
+
+        <view class="section_gap">
+            <view class="section__title">还没想好写什么，先占个位子</view>
+            <view class="body-view">
+                <!--函数没写-->
+                <switch checked="{{switch1Checked}}" bindchange="switch1Change" />
+            </view>
+        </view>
+    </view>
+</view>

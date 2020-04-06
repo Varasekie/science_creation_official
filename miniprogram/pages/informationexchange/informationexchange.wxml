@@ -1,0 +1,34 @@
+<!--pages/informationexchange/informationexchange.wxml-->
+<view class="container">
+    <view>
+        <text>消息</text>
+    </view>
+
+    <view>
+        <!--注意不准跳转到tabber页-->
+        <block>
+
+            <view  style="flex-direction:row;">
+                <navigator url="/pages/icon/icon?id={{item.id}}" open-type="navigate">
+                    <view>
+                        <image src="../../icon/index.png" class="groupentered" />
+                        
+                        
+                    </view>
+                    <text>group</text>
+                </navigator>
+                <navigator class="#" target="#" url="#" hover-class="navigator-hover" open-type="navigate">
+                    <view>
+                    <image class="groupentered" src="../../icon/index2.png" open-type = "navigate" />
+                    
+                    <text>test</text>
+                    </view>
+
+                </navigator>
+            </view>
+
+        </block>
+    </view>
+
+     <mp-tabbar style="position:top;bottom:0;width:100%;left:0;right:0;" list="{{list}}" bindchange="tabChange"></mp-tabbar>
+</view>

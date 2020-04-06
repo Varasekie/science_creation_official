@@ -1,0 +1,45 @@
+<!--pages/credit/credit.wxml-->
+<view class = 'head'>
+   
+    <view class = 'img'>
+        <image src="../../icon/index.png" class = 'img'/>
+    </view>
+    <view>
+    <text>昵称</text>
+    <view>
+        <text>个性签名</text>
+    </view>
+    
+    </view>
+</view>
+<navigator url="../personalinfo/personalinfo" redirect hover-class="className">
+<view >
+ <image src="../../icon/index.png" class = 'img' />
+ <text>个人信息</text>
+</view>
+</navigator>
+
+
+<navigator url="../groupentered/groupentered" redirect hover-class="className">
+<view >
+ <image src="../../icon/index.png" class = 'img'/>
+ <text>小组信息</text>
+</view>
+</navigator>
+
+
+<navigator url="..//problems/problems" redirect hover-class="className">
+<view >
+ <image src="../../icon/index.png" class = 'img' />
+ <text>常见问题</text>
+</view>
+</navigator>
+
+<navigator url="../settings/settings" redirect hover-class="className">
+<view >
+ <image src="../../icon/index.png" class = 'img'/>
+ <text>设置</text>
+</view>
+</navigator>
+
+ <!--这里应该有个联系我们贴着tabber，不知道怎么实现底端欸，要不就删了-->

@@ -1,0 +1,38 @@
+<!--pages/personalinfo/personalinfo.wxml-->
+<view style="display: inline-flex;">
+    <text class="">
+        昵称
+    </text>
+    <textarea class="" value="请输入昵称" type="text">
+    </textarea>
+</view>
+
+
+<view>
+    <text>微信UID</text>
+    <text>默认填充</text>
+</view>
+
+<view>
+    <text>性别</text>
+    <radio-group bindchange="radioChange">
+        <view>
+            <label class="ui-radio {{item.checked==true?'active':''}}" wx:for="{{items}}">
+                <radio value="{{item.name}}" checked="{{item.checked}}"/>
+                <text class="itemvalue" >{{item.value}}</text>
+                </label>
+        </view>
+
+    </radio-group>
+</view>
+
+<view>
+    <text>地区</text>
+
+</view>
+
+<view>
+    <text>身份</text>
+    <!--这里应该需要js来判断的，要写个函数   -->
+    <text>游客</text>
+</view>

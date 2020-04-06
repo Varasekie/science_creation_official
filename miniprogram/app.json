@@ -1,0 +1,73 @@
+{
+    "pages": [
+        "pages/informationexchange/informationexchange",
+        "pages/settings/settings",
+        "pages/personalinfo/personalinfo",
+
+        "pages/credit/credit",
+
+
+
+
+
+
+        "pages/charts/charts",
+        "pages/groupinfo/groupinfo",
+        "pages/problems/problems",
+        "pages/connectour/connectour",
+        "pages/groupentered/groupentered",
+
+        "pages/index/index"
+
+
+
+
+    ],
+    "window": {
+        "backgroundColor": "#F6F6F6",
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#F6F6F6",
+        "navigationBarTitleText": "健康监督",
+        "navigationBarTextStyle": "black"
+    },
+    "sitemapLocation": "sitemap.json",
+    "style": "v2",
+
+
+    "tabBar": {
+
+
+
+        "color": "(244,244,244)",
+        "selectedColor": "",
+        "backgroundColor": "#F6F6F6",
+        "position": "bottom",
+        "borderStyle": "black",
+        "list": [{
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "icon/index.png",
+                "selectedIconPath": "icon/index.png"
+            },
+            {
+                "pagePath": "pages/charts/charts",
+                "text": "条形图",
+                "iconPath": "icon/index2.png",
+                "selectedIconPath": "icon/index2.png"
+            },
+            {
+                "pagePath": "pages/credit/credit",
+                "text": "我",
+                "iconPath": "icon/index2.png",
+                "selectedIconPath": "icon/index2.png"
+            },
+            {
+                "pagePath": "pages/informationexchange/informationexchange",
+                "text": "消息",
+                "iconPath": "icon/index.png",
+                "selectedIconPath": "icon/index.png"
+            }
+        ]
+    }
+
+}

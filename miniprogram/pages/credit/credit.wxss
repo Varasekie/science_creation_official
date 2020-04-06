@@ -1,0 +1,6 @@
+/* pages/credit/credit.wxss */
+
+.img {
+    width: 50rpx;
+    height: 50rpx;
+}

@@ -1,0 +1,7 @@
+/* pages/informationexchange/informationexchange.wxss */
+
+.groupentered {
+    height: 40rpx;
+    width: 40rpx;
+    align-items: center;
+}
